@@ -24,5 +24,5 @@ function updateTime() {
     document.getElementById('datetime').textContent = now.toLocaleDateString('pt-PT', options);
 }
 
-setInterval(updateTime, 1000);
+setInterval(updateTime, 60000);
 updateTime();
