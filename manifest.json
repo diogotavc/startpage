@@ -13,6 +13,10 @@
         "newtab": "index.html"
     },
 
+    "chrome_settings_overrides": {
+        "homepage": "index.html"
+    },
+
     "permissions": [
         "activeTab"
     ],
