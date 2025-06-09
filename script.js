@@ -1,19 +1,9 @@
-if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./sw.js')
-        .then(function(registration) {
-            console.log('ServiceWorker registration successful');
-        })
-        .catch(function(err) {
-            console.log('ServiceWorker registration failed: ', err);
-        });
-}
-
 function handleSearch(event) {
     if (event.key === 'Enter') {
         const query = event.target.value.trim();
         if (query) {
             const searchUrl = `https://www.google.com/search?udm=14&num=30&q=${encodeURIComponent(query)}`;
-            window.location.href = searchUrl;
+            window.open(searchUrl, '_blank');
         }
     }
 }

@@ -1,9 +1,25 @@
 {
-    "name": "Startpage",
-    "short_name": "Startpage",
+    "manifest_version": 2,
+    "name": "startpage",
+    "version": "1.0",
     "description": "Personal startpage with search and quick links",
-    "start_url": "./",
-    "display": "standalone",
-    "background_color": "#fafafa",
-    "theme_color": "#3584e4"
+
+    "developer": {
+        "name": "diogotavc",
+        "url": "https://github.com/diogotavc/startpage"
+    },
+
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+
+    "permissions": [
+        "activeTab"
+    ],
+
+    "web_accessible_resources": [
+        "icons/*",
+        "styles.css",
+        "script.js"
+    ]
 }
