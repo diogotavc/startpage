@@ -4,6 +4,12 @@
     "version": "1.0",
     "description": "Personal startpage with search and quick links",
 
+    "applications": {
+        "gecko": {
+            "id": "startpage@diogotavc.github.io"
+        }
+    },
+
     "developer": {
         "name": "diogotavc",
         "url": "https://github.com/diogotavc/startpage"
