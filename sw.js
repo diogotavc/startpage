@@ -1,18 +1,17 @@
-const CACHE_NAME = 'startpage-v1';
+const CACHE_NAME = 'startpage-v2';
 const urlsToCache = [
-    '/',
-    '/index.html',
-    '/styles.css',
-    '/script.js',
-    '/icons/mostly_clear_day.svg',
-    '/icons/Print_Glyph_Green.png',
-    '/icons/github-mark.png',
-    '/icons/github-mark-white.png',
-    '/icons/google-ai-studio-logo.png',
-    '/icons/deepl-1.svg',
-    '/icons/Google_Translate_logo.svg',
-    '/icons/Google_Calendar_icon_(2020).svg',
-    'https://gnome.pages.gitlab.gnome.org/libadwaita/css/adwaita-1.css'
+    './',
+    './index.html',
+    './styles.css',
+    './script.js',
+    './icons/mostly_clear_day.svg',
+    './icons/Print_Glyph_Green.png',
+    './icons/github-mark.png',
+    './icons/github-mark-white.png',
+    './icons/google-ai-studio-logo.png',
+    './icons/deepl-1.svg',
+    './icons/Google_Translate_logo.svg',
+    './icons/Google_Calendar_icon_(2020).svg'
 ];
 
 self.addEventListener('install', function (event) {
